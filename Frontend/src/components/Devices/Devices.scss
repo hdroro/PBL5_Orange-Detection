@@ -1,0 +1,17 @@
+.devices-container {
+  .img-device {
+    img {
+      width: 150px;
+    }
+  }
+
+  .title-device {
+    text-align: center;
+    font-weight: 500;
+  }
+  .toggle-icon {
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}

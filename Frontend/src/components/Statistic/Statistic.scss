@@ -1,0 +1,88 @@
+.form-select {
+  border: 1px solid #ffb400 !important;
+
+  &:focus,
+  :active {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent;
+  }
+}
+
+.card-box {
+  position: relative;
+  color: #fff;
+  padding: 20px 10px 40px;
+  margin: 20px 0px;
+
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card-box:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.card-box .icon-i {
+  width: 80px;
+  height: 80px;
+  transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1),
+    height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.card-box:hover .icon-i {
+  width: 120px;
+  height: 120px;
+}
+
+.card-box .inner {
+  padding: 5px 10px 0 10px;
+}
+.card-box h3 {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  white-space: nowrap;
+  padding: 0;
+  text-align: left;
+}
+.card-box p {
+  font-size: 15px;
+}
+.icon-i {
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  right: 5px;
+  z-index: 0;
+  width: 72px;
+  color: rgba(0, 0, 0, 0.15);
+}
+.card-box .card-box-footer {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+  padding: 3px 0;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-decoration: none;
+}
+.card-box:hover .card-box-footer {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bg-total {
+  background-color: #ff9300 !important;
+}
+.bg-ok {
+  background-color: #3bc992e6 !important;
+}
+.bg-not-ok {
+  background-color: #7140809c !important;
+}
+
+.filer {
+  margin-top: 40px;
+}

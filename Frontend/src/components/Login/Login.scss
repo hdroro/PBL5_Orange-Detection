@@ -1,0 +1,46 @@
+.form-login {
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #404449d9;
+
+  .title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffb400;
+  }
+
+  .shrink-star {
+    color: #ff3535;
+  }
+  .form-group {
+    input {
+      border: none !important;
+
+      &:focus,
+      :active {
+        outline: none !important;
+        box-shadow: none !important;
+        border-color: transparent;
+      }
+    }
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+}
+
+.btn-login {
+  background-color: #ffb400 !important;
+  color: #fff !important;
+}
+
+.text-white-color {
+  color: #fff;
+}
+
+.bg-white-color {
+  background-color: #fff;
+}

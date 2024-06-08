@@ -1,0 +1,52 @@
+.list-results-container {
+  .title-results {
+    color: #e8b12d;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .time {
+    color: #aca3a3e0;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    font-size: 11px;
+    justify-content: end;
+  }
+  .update {
+    color: #e8b12d;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+}
+
+//Result Item
+.result-item-container {
+  background-color: #d9d9d93d;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+
+  & + .result-item-container {
+    margin-top: 7px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+  &.chosen {
+    background-color: #7373733d;
+  }
+}
+
+.icon + .title,
+.title + .icon {
+  margin-left: 8px;
+}
+
+.icon {
+  display: block;
+  width: 24px;
+  text-align: center;
+}
